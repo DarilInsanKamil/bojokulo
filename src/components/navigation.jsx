@@ -20,13 +20,6 @@ const Navigation = ({ onClick }) => {
         </Link>
         <Link
           onClick={onClick}
-          href="/gallery"
-          className="tracking-tight hover:tracking-wide transition-all"
-        >
-          Gallery
-        </Link>
-        <Link
-          onClick={onClick}
           href="/merchandise"
           className="tracking-tight hover:tracking-wide transition-all"
         >
