@@ -11,7 +11,6 @@ const Profile = () => {
         </div>
 
         <div className="lg:col-start-3 lg:col-span-8 col-start-1 col-span-6 mt-10 flex flex-col lg:flex-row lg:gap-10 gap-5 ">
-  
           <div className="">
             <p className="text-neutral-500">
               <span className="font-semibold text-neutral-900">
@@ -27,11 +26,13 @@ const Profile = () => {
                   EDAM Entertainment
                 </a>
               </span>
+              {`
               . She is also known in South Korea as "The Nation's Little
               Sister." Besides her talent in singing and songwriting, IU is also
               loved by fans worldwide for her performance as an actress in
               dramas such as "Moon Lovers: Scarlet Heart Ryeo," "Hotel Del
               Luna," and "My Mister."
+              `}
             </p>
           </div>
         </div>
