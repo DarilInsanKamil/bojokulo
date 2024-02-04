@@ -24,7 +24,7 @@ const Page = () => {
 
   return (
     <main>
-      <section className="h-[80vh] flex justify-center items-center bg-white/25 rounded-br-[8%] rounded-bl-[8%]">
+      <section className="lg:h-[80vh] h-[60vh] flex justify-center items-center bg-white/25 rounded-br-[8%] rounded-bl-[8%]">
         <div className="py-3 relative group cursor-pointer mix-blend-difference">
           <Link
             href="https://youtu.be/JleoAppaxi0?si=SSSPShOXNoqVpUoz"
@@ -46,7 +46,7 @@ const Page = () => {
           autoPlay
           muted
           ref={videoRef}
-          className="fixed right-0 top-0 min-w-[100%] h-[80vh] -z-10 object-cover bg-center mix-blend-multiply bg-blend-multiply rounded-br-[8%] rounded-bl-[8%]"
+          className="fixed right-0 top-0 min-w-[100%] lg:h-[80vh] h-[60vh] -z-10 object-cover bg-center mix-blend-multiply bg-blend-multiply rounded-br-[8%] rounded-bl-[8%]"
         >
           <source src="/loopedit.mp4" type="video/mp4"></source>
           Your browser does not support the video tag.

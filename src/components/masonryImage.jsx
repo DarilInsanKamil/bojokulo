@@ -1,6 +1,6 @@
 const MasonryImage = () => {
   return (
-    <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 lg:col-start-2 col-start-1 lg:col-span-10 col-span-6 lg:px-5 mt-10">
+    <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 lg:col-start-3 lg:col-span-8 col-start-1 col-span-6  mt-10">
       <div className="grid gap-4">
         <div>
           <img
