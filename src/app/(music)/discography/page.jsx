@@ -3,7 +3,7 @@ import Link from "next/link";
 import EmbedSpotify from "@/components/embedSpotify";
 import { useEffect, useRef } from "react";
 
-const page = () => {
+const Page = () => {
   let videoRef = useRef();
   useEffect(() => {
     let isMounted = true;
@@ -62,7 +62,7 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
 const Arrow = () => {
   return (
